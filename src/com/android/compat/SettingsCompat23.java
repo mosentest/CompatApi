@@ -4,6 +4,13 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.provider.Settings;
 
+/**
+ * 这里作者的更完善 <br/>
+ * https://github.com/czy1121/settingscompat
+ * 
+ * @author Administrator
+ *
+ */
 public class SettingsCompat23 {
 
 	@SuppressLint("NewApi")

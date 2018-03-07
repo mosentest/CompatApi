@@ -9,7 +9,7 @@ public class ViewCompat {
 
 	@SuppressLint("NewApi")
 	public void setBackground(View view, Drawable drawable) {
-		if (Build.VERSION.SDK_INT >= 16) {
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 			view.setBackground(drawable);
 		} else {
 			view.setBackgroundDrawable(drawable);
