@@ -8,7 +8,7 @@ import android.provider.Settings;
  * 这里作者的更完善 <br/>
  * https://github.com/czy1121/settingscompat
  * 
- * @author Administrator
+ * @author moziqi
  *
  */
 public class SettingsCompat23 {

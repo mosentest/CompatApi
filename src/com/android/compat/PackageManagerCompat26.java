@@ -14,7 +14,12 @@ public class PackageManagerCompat26 {
 		return pm.canRequestPackageInstalls();
 	}
 
-	public static void goInstallPage26(Context context) {
+	/**
+	 * 跳转授权页面
+	 * 
+	 * @param context
+	 */
+	public static void goInstallAuthorized(Context context) {
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && context.getApplicationInfo().targetSdkVersion >= Build.VERSION_CODES.O) {
 			Uri parse = Uri.parse("package:" + context.getPackageName());
 			Intent intent = new Intent("android.settings.MANAGE_UNKNOWN_APP_SOURCES", parse);
